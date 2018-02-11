@@ -18,7 +18,7 @@ func main() {
 	clearConsole()
 
 	desiredInt := newGame(reader) // Setup a new game
-	guesses := []int64{}
+	guesses := make([]int64, 20)  // Set default capacity to 20 for better performance
 
 	for {
 		line, _, _ := reader.ReadLine() // Get guess as byte[]
