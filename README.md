@@ -1,1 +1,1 @@
-# Guessing-Game-In-Go
+# A Simple Guessing Game Written In Go
